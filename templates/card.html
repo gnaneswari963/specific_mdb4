@@ -1,0 +1,49 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{% static 'images/pk2.jpg' %}">
+    <link rel="stylesheet" href="{% static 'css/bootstrap.css' %}">
+    <link rel="stylesheet" href="{% static 'css/mdb.css' %}">
+    <style>
+        img
+        {
+            width: 300px;
+        }
+    </style>
+</head>
+<body>
+    <center>
+        <h1>specific mdb4 html page</h1>
+
+        <!-- Card -->
+<div class="card">
+
+    <!-- Card image -->
+    <img class="card-img-top" src="{% static 'images/pk2.jpg' %}" alt="image not found"  height="500px">
+  
+    <!-- Card content -->
+    <div class="card-body">
+  
+      <!-- Title -->
+      <h4 class="card-title"><a>Card title</a></h4>
+      <!-- Text -->
+      <p class="card-text">Pawan kalyan is a super cool.</p>
+      <!-- Button -->
+      <a href="#" class="btn btn-primary">Button</a>
+  
+    </div>
+  
+  </div>
+  <!-- Card -->
+    </center>
+
+    <script src="{% static 'js/jquery.js' %}"></script>
+    <script src="{% static 'js/popper.js' %}"></script>
+    <script src="{% static 'js/bootstrap.js' %}"></script>
+    <script src="{% static 'js/mdb.js' %}"></script>
+</body>
+</html>
